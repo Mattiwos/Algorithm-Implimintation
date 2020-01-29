@@ -1,19 +1,19 @@
 # Algorithm-Implimintation
 Learning how to implement algorithm in java and learn about different algorithm while at it.
 ## Java Sorting Algorithams:
-Quick Sort__
-Merge Sort__
-Bubble Sort__
-Selection Sort__
-Insertion Sort__
+Quick Sort  
+Merge Sort  
+Bubble Sort  
+Selection Sort  
+Insertion Sort  
 
 ## Password encryption
--AES__
--ETC
+-AES  
+-ETC  
 
 ## Pathfinding Algorithams
 
-A* algorithams__
-Dijkstra's algorithm__
-Sample algorithm__
-D* algoritham
+A* algoritham  
+Dijkstra's algorithm  
+Sample algorithm  
+D* algoritham  
