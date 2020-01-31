@@ -3,7 +3,7 @@ public class Mergesort{
     public Mergesort(){
 
     }
-    public void Mergesort(int[] args){
+    public void sort(int[] args){
 
     }
 

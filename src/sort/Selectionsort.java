@@ -4,7 +4,7 @@ public class Selectionsort{
 
         
     }
-    public void Selectionsort(int[] args){
+    public void sort(int[] args){
 
     }
 

@@ -4,7 +4,7 @@ public class Bubblesort{
 
         
     }
-    public void Bubblesort(int[] args){
+    public void sort(int[] args){
 
     }
 

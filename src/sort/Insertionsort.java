@@ -4,7 +4,7 @@ public class Insertionsort{
 
         
     }
-    public void Insertionsort(int[] args){
+    public void sort(int[] args){
 
     }
 
