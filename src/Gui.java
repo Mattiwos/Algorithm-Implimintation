@@ -7,7 +7,7 @@ import java.awt.geom.*;
 import java.awt.Graphics.*;
 
 
-public class Gui extends Canvas{
+public class Gui extends Canvas implements ActionListener{
     /**
      *
      */
@@ -15,7 +15,9 @@ public class Gui extends Canvas{
     private String title;
     private int width;
     private int height;
-
+    JMenuItem i1, i2, i3, i4, i5;  
+    JMenu menu, sortmenu;
+    JMenuBar mb;
 
     public Gui(String title, int widthx, int heightx) {
         JFrame frame = new JFrame(title);
@@ -26,7 +28,34 @@ public class Gui extends Canvas{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(width,height);
         
+       
+        
+        mb =new JMenuBar(); 
+        menu = new JMenu("Menu");  
+        sortmenu = new JMenu("Sorting Methods");
+        
+        i1=new JMenuItem("Bubble Sort");
+        i1.addActionListener(this);  
+        i2=new JMenuItem("Insertion Sort");  
+        i2.addActionListener(this);  
+        i3=new JMenuItem("Merge Sort");  
+        i3.addActionListener(this);  
+        i4=new JMenuItem("Quick Sort");  
+        i4.addActionListener(this);  
+        i5=new JMenuItem("Selection Sort");  
+        i5.addActionListener(this);  
+        sortmenu.add(i1); 
+        sortmenu.add(i2); 
+        sortmenu.add(i3);  
+        sortmenu.add(i4);
+        sortmenu.add(i5); 
+
+        menu.add(sortmenu);
+        mb.add(menu);  
+        frame.setJMenuBar(mb); 
+
         frame.getContentPane().add(new Gui(width,height));
+
         frame.setVisible(true);
         
     }
@@ -34,6 +63,18 @@ public class Gui extends Canvas{
         this.width = width;
         this.height = height;
     }
+    public void actionPerformed(ActionEvent e) {   
+        if(e.getSource()==i1)    
+        System.out.println("Bubble Sort");
+        if(e.getSource()==i2)    
+        System.out.println("Insertion Sort");
+        if(e.getSource()==i3)    
+        System.out.println("Merge Sort");
+        if(e.getSource()==i4)    
+        System.out.println("Quick Sort");
+        if(e.getSource()==i5)    
+        System.out.println("Selection Sort");
+    }     
 
    public void paint(Graphics g) {
         
@@ -62,6 +103,10 @@ public class Gui extends Canvas{
         
            }  
         
+   }
+   public void showoval(Graphics g){
+    Graphics2D g2 = (Graphics2D) g;
+    g2.fillOval(20, 40, 30, 40);
    }
 
     public static void main (String arg[]){

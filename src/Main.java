@@ -11,6 +11,8 @@ public class Main{
         
         System.out.println(java.util.Arrays.toString(testArray));
         System.out.println(java.util.Arrays.toString(sortmachine.sort(testArray)));
+    
+        new Gui("Display", 400,400);
     }
 
 
