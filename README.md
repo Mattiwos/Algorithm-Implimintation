@@ -18,7 +18,7 @@ Learning how to implement algorithm in java and learn about different algorithm 
 []Sample algorithm  
 []D* algoritham  
 ### To Do 
-    [ ]Gui
+    [x]Gui
     []Insertion sort
     []visuals using gui 
     
