@@ -2,10 +2,15 @@
 Learning how to implement algorithm in java and learn about different algorithm while at it.
 ## Java Sorting Algorithams:
 []Quick Sort  
+  [ ]Visulization
 []Merge Sort  
-[]Bubble Sort  
+  [ ]Visulization
+[]Bubble Sort
+  [ ]Visulization  
 []Selection Sort  
-[]Insertion Sort  
+  [ ]Visulization
+[x]Insertion Sort  
+  [ ]Visulization
 
 ## Password encryption
 []-AES  
@@ -14,11 +19,15 @@ Learning how to implement algorithm in java and learn about different algorithm 
 ## Pathfinding Algorithams
 
 []A* algoritham  
+  [ ]Visulization
 []Dijkstra's algorithm  
+  [ ]Visulization
 []Sample algorithm  
+  [ ]Visulization
 []D* algoritham  
+  [ ]Visulization
 ### To Do 
-    []Gui
-    []Insertion sort
+    [x]Gui
+    [x]Insertion sort
     []visuals using gui 
     
