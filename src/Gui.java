@@ -144,14 +144,14 @@ public class Gui extends Canvas implements ActionListener{
    public void render(){
     // frame.invalidate();
     // frame.validate();
-    // frame.repaint();
+    frame.repaint();
     frame.setVisible(false); frame.setVisible(true);
     
    }
    public void run() {
     
     int timepassed = 0;
-    boolean running = true;
+    boolean running = false;
     int init = (int)System.currentTimeMillis() / 1000;
     while (running == true){
         int start = (int)System.currentTimeMillis() / 1000 - init;
