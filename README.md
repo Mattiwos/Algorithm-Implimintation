@@ -1,7 +1,7 @@
 # Algorithm-Implimintation
 Learning how to implement algorithm in java and learn about different algorithm while at it.
 ## Java Sorting Algorithams:
-- []Quick Sort  
+- [ ]Quick Sort  
   - [ ]Visulization
 - [ ]Merge Sort  
   - [ ]Visulization
@@ -9,7 +9,7 @@ Learning how to implement algorithm in java and learn about different algorithm 
   - [ ]Visulization  
 - [ ]Selection Sort  
   - [ ]Visulization
-- [x]Insertion Sort  
+- [X]Insertion Sort  
   - [ ]Visulization
 
 ## Password encryption
