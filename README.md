@@ -26,7 +26,7 @@ Learning how to implement algorithm in java and learn about different algorithm 
   - [ ] Visulization
 - [ ] D* algoritham  
   - [ ] Visulization
-#### To Do 
+# To Do 
   - [x] Gui
   - [x] Insertion sort
   - [ ] Visulization using gui 
